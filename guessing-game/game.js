@@ -24,3 +24,15 @@ var guess2 = prompt("What is the greatest band of all time?");
 			alert("DISAGREE. " + guess2 + " is not a...I can't even...");
 	};
 
+var guess3 = prompt("What color is my hair?");
+		if (guess3 == "black" || "Black") {
+		alert("Yup, " + guess2 + ".");
+	}
+	else if 
+		(guess3 == "brown" || "Brown") {
+		alert("It's not really  " + guess3 + ", it's darker than that.");
+		}  
+	else if 
+		(guess3 == "Gray" || "gray") {
+			alert("Ummm...yeah, I guess it is kind of " + guess3 + ".");
+	};
