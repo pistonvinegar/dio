@@ -26,7 +26,7 @@ var guess2 = prompt("What is the greatest band of all time?");
 
 var guess3 = prompt("What color is my hair?");
 		if (guess3 == "black" || "Black") {
-		alert("Yup, " + guess2 + ".");
+		alert("Yup, " + guess3 + ".");
 	}
 	else if 
 		(guess3 == "brown" || "Brown") {
@@ -36,3 +36,13 @@ var guess3 = prompt("What color is my hair?");
 		(guess3 == "Gray" || "gray") {
 			alert("Ummm...yeah, I guess it is kind of " + guess3 + ".");
 	};
+
+	var guess4 = prompt("Is Sarah awesome? Yes or no.");
+		if (guess4 == "yes" || "Yes") {
+		alert("I know, right?" );
+		}
+	else if 
+		(guess == "no" || "No") {
+			alert("Then you have bad taste.");
+			};
+		
